@@ -6,9 +6,23 @@ public class StudentRunner {
     public static void main(String[] args) {
 //        userInput();
 
-        Student stu = new Student("kevin", 85, 99);
+        Student.pass = 50;
+        Student stu = new Student("josh", 49, 59);
+        Student stu1 = new Student("jane", 40, 60);
+        Student stu2 = new Student("eric", 23, 56);
+
+        GraduateStudent gstu = new GraduateStudent("jack", 67, 69, 75);
+        gstu.print();
+
         stu.print();
-        System.out.println("Highest score: " + stu.highest());
+        stu1.print();
+        stu2.print();
+
+        com.chengte99.kotlin.Student.Companion.setPass(50);
+        com.chengte99.kotlin.Student stu3 = new com.chengte99.kotlin.Student("tony", 56, 61);
+        stu3.print();
+
+//        System.out.println("Highest score: " + stu.highest());
     }
 
     private static void userInput() {
