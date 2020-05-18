@@ -9,6 +9,7 @@ public class GraduateStudent extends Student{
         this.thesis = thesis;
     }
 
+    // ctrl + O
     @Override
     public void print() {
         System.out.print(name + "\t" + english + "\t" + math +
