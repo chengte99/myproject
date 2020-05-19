@@ -25,6 +25,7 @@ public class StudentRunner {
 //        System.out.println("Highest score: " + stu.highest());
     }
 
+    // Command + Option + M 抽取方法
     private static void userInput() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please input stu name:");
