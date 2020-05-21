@@ -4,7 +4,7 @@ fun main() {
 //    println("Hello kotlin")
 //    Person().hello()
     var name: String? = "abcde";
-    name = null
+//    name = null
     println(name?.length);
     println(name?.get(3));
     println(name?.substring(3));

@@ -7,8 +7,7 @@ public class Tester {
 //        arrayTest();
 //        list();
 //        set();
-        map();
-
+//        map();
     }
 
     private static void map() {
